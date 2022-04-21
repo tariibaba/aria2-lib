@@ -1,6 +1,6 @@
 {
   "name": "aria2-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/cjs/index.js",
   "module": "dist/mjs/index.js",
   "description": "Aria2 library for Node.js and the browser",
