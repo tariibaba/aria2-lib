@@ -31,11 +31,10 @@ const esmConfig = {
   output: {
     path: path.resolve(__dirname, 'dist', 'mjs'),
     filename: 'index.js',
-    libraryTarget: 'module',
-    chunkFormat: 'module',
-  },
-  experiments: {
-    outputModule: true,
+    library: {
+      type: 'umd',
+      export: 'default',
+    },
   },
   ...generalConfig,
 };
